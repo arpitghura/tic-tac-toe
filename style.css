@@ -70,6 +70,7 @@ nav ul li {
 #user-turn{
     margin: 10px;
     font-size: 20px;
+    width: 50%;
 }
 #reset{
     padding: 5px 20px;
@@ -92,5 +93,8 @@ nav ul li {
         display:grid;
         grid-template-rows: repeat(3,15vh);
         grid-template-columns: repeat(3,15vh);
+    }
+    .box-text{
+        font-size: 10vh;
     }
 }
