@@ -36,7 +36,8 @@ Array.from(boxes).forEach(element => {
                 turn = changeTurn();
                 // checkDraw();
                 checkWin();
-                info.innerText = " Turn for "+ turn;
+                if(!gameover)
+                    info.innerText = " Turn for "+ turn;
             }
         }
     })

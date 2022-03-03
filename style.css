@@ -39,7 +39,7 @@ nav ul li {
     cursor: pointer;
 }
 .box:hover{
-    background-color: #e9d9fa;
+    background-color: #faf7fd;
 }
 .game-info{
     padding: 5vh;
@@ -74,7 +74,7 @@ nav ul li {
 }
 #reset{
     padding: 5px 20px;
-    background-color: rgb(67, 67, 231);
+    background-color: rgb(48, 48, 233);
     border: 2px solid rgb(71, 68, 68);
     color: white;
     font-size: 18px;
@@ -85,7 +85,7 @@ nav ul li {
 #reset:hover{
     color: whitesmoke;
     border-color: black;
-    background-color: rgb(120, 46, 238);
+    background-color: rgb(12, 141, 247);
 }
 
 @media screen and (max-width: 600px) {
